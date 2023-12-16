@@ -1,0 +1,2 @@
+INFO flower 2022-10-10 15:24:27,226 | app.py:134 | Flower server running (10 rounds), SSL is disabled
+INFO flower 2022-10-10 15:24:27,226 | server.py:84 | Initializing global parameters

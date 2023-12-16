@@ -1,0 +1,34 @@
+alx range: -11.47312 to 19.233
+aly range: -19.379 to 2.447871999999997
+2022-10-10 15:44:26.553580: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-10-10 15:44:26.553611: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-10-10 15:44:26.553637: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (cse-HP-EliteDesk-800-G1-TWR): /proc/driver/nvidia/version does not exist
+2022-10-10 15:44:26.553944: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m wandb.watch only works with pytorch, couldn't import torch.
+Traceback (most recent call last):
+  File "client3.py", line 126, in <module>
+    wandb.watch(model)
+  File "/home/student/.local/lib/python3.8/site-packages/wandb/sdk/wandb_watch.py", line 68, in watch
+    torch = wandb.util.get_module(
+  File "/home/student/.local/lib/python3.8/site-packages/wandb/util.py", line 302, in get_module
+    raise wandb.Error(required)
+wandb.errors.Error: wandb.watch only works with pytorch, couldn't import torch.
+Traceback (most recent call last):
+  File "client3.py", line 126, in <module>
+    wandb.watch(model)
+  File "/home/student/.local/lib/python3.8/site-packages/wandb/sdk/wandb_watch.py", line 68, in watch
+    torch = wandb.util.get_module(
+  File "/home/student/.local/lib/python3.8/site-packages/wandb/util.py", line 302, in get_module
+    raise wandb.Error(required)
+wandb.errors.Error: wandb.watch only works with pytorch, couldn't import torch.
+alz range: -18.95 to 14.19623999999999
+glx range: -0.74212 to 0.80705
+gly range: -1.0694 to 0.96623
+glz range: -1.1061 to 0.8290799999999999
+arx range: -21.492 to 9.097647999999998
+ary range: -18.694000000000003 to 11.948059999999998
+arz range: -10.367 to 11.823119999999996
+grx range: -1.0196 to 0.95686
+gry range: -1.1417 to 0.90965
+grz range: -0.69828 to 1.125

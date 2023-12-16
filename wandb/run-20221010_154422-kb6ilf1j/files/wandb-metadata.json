@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.4.0-126-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-10-10T10:14:29.453037",
+    "startedAt": "2022-10-10T10:14:22.136120",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "client4.py",
+    "codePath": "client4.py",
+    "git": {
+        "remote": "https://github.com/aadityarock2000/Federated_Flower.git",
+        "commit": "459de7e05ed0487e6709d7e38a0627c66d9dd505"
+    },
+    "email": null,
+    "root": "/home/student/FedRH",
+    "host": "cse-HP-EliteDesk-800-G1-TWR",
+    "username": "student",
+    "executable": "/usr/bin/python3"
+}
